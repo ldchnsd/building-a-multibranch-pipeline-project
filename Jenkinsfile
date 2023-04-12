@@ -4,9 +4,6 @@ pipeline {
     environment {
         CI = 'true'
     }
-    tools {
-    npm 'NodeJS'
-    }
     stages {
         stage('Build') {
             steps {
